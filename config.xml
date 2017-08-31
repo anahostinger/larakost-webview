@@ -9,10 +9,6 @@
 <platform name="android" >
     <allow-intent href="http://*/*"/>
     <allow-intent href="https://*/*"/>
-    <allow-intent href="http://html5test.com/*"/>
-    <allow-intent href="http://www.i-drain.net/*"/>
-    <access origin="http://html5test.com/*"/>
-    <access origin="http://www.i-drain.net/*"/>
     <access origin="*"/>
 </platform>
 <preference name="phonegap-version" value="cli-6.2.0" />
