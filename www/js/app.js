@@ -59,14 +59,14 @@ function extPageSysBrowser() {
     // var fName = "extPageSysBrowser():";
     // console.log(fName, "entry");
     try {
-        if (window.tinyHippos) {
-            emulatorAlert();
-            // console.log(fName, "emulator alert");
-        } else {
-            // var ref = window.open('http://html5test.com', '_system', 'location=yes');
+        // if (window.tinyHippos) {
+            // emulatorAlert();
+            // // console.log(fName, "emulator alert");
+        // } else {
 			var ref = window.open('https://larakost.id/login', '_system', 'location=yes');
+			// var ref = window.open('https://larakost.id/login', '_blank', 'location=yes');
             // console.log(fName, "try, success");
-        }
+        // }
     } catch (e) {
         // console.log(fName, "catch, failure");
     }
